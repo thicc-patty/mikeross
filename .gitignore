@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+pagemap.json
+plan.json
+# Obsidian per-machine state (let users keep their own)
+.obsidian/workspace.json
+.DS_Store
