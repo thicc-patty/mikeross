@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450" role="img" aria-labelledby="title">
+  <title id="title">A bluebird perched on a branch</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bfe3ff"/>
+      <stop offset="1" stop-color="#fff4dc"/>
+    </linearGradient>
+    <linearGradient id="back" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4a8fe0"/>
+      <stop offset="1" stop-color="#1f5fb0"/>
+    </linearGradient>
+    <linearGradient id="chest" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4a261"/>
+      <stop offset="1" stop-color="#e07a3a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- sky -->
+  <rect width="600" height="450" fill="url(#sky)"/>
+  <circle cx="500" cy="90" r="45" fill="#ffe08a" opacity="0.85"/>
+
+  <!-- clouds -->
+  <g fill="#ffffff" opacity="0.9">
+    <ellipse cx="120" cy="80" rx="55" ry="18"/>
+    <ellipse cx="150" cy="68" rx="35" ry="18"/>
+    <ellipse cx="340" cy="120" rx="45" ry="14"/>
+    <ellipse cx="365" cy="110" rx="28" ry="14"/>
+  </g>
+
+  <!-- branch -->
+  <path d="M20 340 C160 320 300 335 420 318 S560 300 590 305" stroke="#6b4423" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <path d="M430 318 C460 290 480 280 510 270" stroke="#6b4423" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <!-- leaves -->
+  <g fill="#5a9e4b">
+    <ellipse cx="515" cy="262" rx="22" ry="9" transform="rotate(-25 515 262)"/>
+    <ellipse cx="490" cy="282" rx="18" ry="8" transform="rotate(30 490 282)"/>
+    <ellipse cx="90" cy="325" rx="20" ry="8" transform="rotate(-20 90 325)"/>
+    <ellipse cx="560" cy="296" rx="18" ry="7" transform="rotate(15 560 296)"/>
+  </g>
+
+  <!-- tail -->
+  <path d="M215 250 L120 300 L135 312 L128 322 L230 275 Z" fill="#1f5fb0"/>
+
+  <!-- feet -->
+  <g stroke="#3a2a1a" stroke-width="4" stroke-linecap="round" fill="none">
+    <path d="M280 300 L276 328"/>
+    <path d="M276 328 L264 334 M276 328 L278 338 M276 328 L288 334"/>
+    <path d="M310 300 L312 326"/>
+    <path d="M312 326 L300 332 M312 326 L314 336 M312 326 L324 332"/>
+  </g>
+
+  <!-- body -->
+  <ellipse cx="290" cy="250" rx="92" ry="62" fill="url(#back)"/>
+  <!-- chest -->
+  <path d="M300 200 C370 200 390 260 350 300 C320 320 270 312 250 290 C300 280 320 240 300 200 Z" fill="url(#chest)"/>
+  <!-- belly -->
+  <path d="M265 296 C300 312 335 308 352 294 C330 318 285 318 265 296 Z" fill="#fbe7d0"/>
+
+  <!-- wing -->
+  <path d="M220 225 C260 205 320 215 330 250 C300 280 240 285 205 262 Z" fill="#2c6fc4"/>
+  <g stroke="#174a8c" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M225 245 C255 250 285 252 315 250"/>
+    <path d="M222 258 C250 265 280 268 305 265"/>
+  </g>
+
+  <!-- head -->
+  <circle cx="365" cy="190" r="45" fill="url(#back)"/>
+  <!-- cheek -->
+  <path d="M360 205 C380 230 400 225 405 205 C395 215 375 215 360 205 Z" fill="url(#chest)"/>
+
+  <!-- beak -->
+  <path d="M405 182 L440 192 L405 200 Z" fill="#f2c14e"/>
+  <path d="M405 192 L440 192 L405 200 Z" fill="#d9a232"/>
+
+  <!-- eye -->
+  <circle cx="382" cy="180" r="10" fill="#ffffff"/>
+  <circle cx="384" cy="180" r="6.5" fill="#111111"/>
+  <circle cx="386" cy="177" r="2" fill="#ffffff"/>
+</svg>
